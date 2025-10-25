@@ -8,7 +8,7 @@ This repository demonstrates a **Java-style iterator** implemented in TypeScript
     + `next` 
     + `hasNext` 
     + `remove`
-    + `forEachRemaining` 
+    + `forEachRemaining` <br>
     Additionally :
     + `getArray()` helper function
 
