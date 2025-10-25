@@ -15,7 +15,7 @@ export class CustomIterator implements Iterable<number>{
         if(!this.hasNext()) {
             throw new Error("No more elements in the array");
         }
-        this.prev++;
+        this.prev = this.current;
         return this.array[this.current++]; 
     }
 
@@ -29,7 +29,7 @@ export class CustomIterator implements Iterable<number>{
         }
         this.array.splice(this.prev,1);
         this.current--;
-        this.prev--;
+        this.prev = -1;
     }
 
     forEachRemaining(callback: (n: number) => void){
