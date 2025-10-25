@@ -8,7 +8,7 @@ This repository demonstrates a **Java-style iterator** implemented in TypeScript
     + `next` 
     + `hasNext` 
     + `remove`
-    + `forEachRemaining` <br>
+    + `forEachRemaining` <br><br>
     Additionally :
     + `getArray()` helper function
 
@@ -53,22 +53,21 @@ Logs the iterator’s internal array contents for debugging.
 
 Follow these steps to compile and run the TypeScript project.
 
----
 
-## Install Dependencies
+### Install Dependencies
 Install all required packages using npm:
 
 ```bash
 npm install
 ```
 
-## Build the Project
+### Build the Project
 Compile the TypeScript files into JavaScript:
 ```bash
 npm run build
 ```
 
-## Run the Program
+### Run the Program
 ```bash
 npm start
 ```
