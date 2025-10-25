@@ -5,12 +5,12 @@
 This repository demonstrates a **Java-style iterator** implemented in TypeScript.
 
 - **`iterator.ts`** — contains a class that takes in a `number[]` and supports the following Java Iterator functions:
-    -- `next` 
-    -- `hasNext` 
-    -- `remove`
-    -- `forEachRemaining` 
+    + `next` 
+    + `hasNext` 
+    + `remove`
+    + `forEachRemaining` 
     Additionally :
-    -- `getArray()` helper function
+    + `getArray()` helper function
 
 - **`main.ts`** — Performs the example behavior mentioned in the requirements, with a little script embellishment for the demonstration of the 'forEachRemaining' functionality. 
 
@@ -49,3 +49,26 @@ Logs the iterator’s internal array contents for debugging.
 
 ---
 
+## Build and Run Instructions
+
+Follow these steps to compile and run the TypeScript project.
+
+---
+
+## Install Dependencies
+Install all required packages using npm:
+
+```bash
+npm install
+```
+
+## Build the Project
+Compile the TypeScript files into JavaScript:
+```bash
+npm run build
+```
+
+## Run the Program
+```bash
+npm start
+```
